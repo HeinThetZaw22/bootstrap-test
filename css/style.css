@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root{
+    --p-color: #F1F6F9;
+    --s-color: #394867;
+    --t-color: #212A3E;
+    --a-color: #9BA4B5;
+    --heading-: 30px;
+    --body-: 16px;
+}
+.offcanvas{
+    background: var(--s-color);
+}
+.navbar{
+  background: var(--t-color);
+}
+.home-page .row{
+    background: var(--t-color);
+}
+.about{
+    /* box-sizing: border-box; */
+    background: var(--t-color);
+}
+.about .accordion-item button{
+    background: var(--t-color);
+}
+.about .accordion-item{
+    background: var(--s-color);
+}
+.card-contain{
+    background: var(--t-color);
+}
+.card-contain .card{
+    margin: 0 auto;
+    background: var(--t-color);
+}
+.form{
+    background: var(--p-color);
+}
+.footer .col-one{
+    background: var(--s-color);
+}
+.footer .col-two{
+    background: var(--t-color);
+}
